@@ -1,0 +1,41 @@
+{
+  "name": "reactjs-project",
+  "version": "1.0.0",
+  "description": "ReactJS Project",
+  "private": true,
+  "scripts": {
+    "watch": "webpack --watch",
+    "build": "webpack",
+    "deploy": "webpack --config webpack.prod.js"
+  },
+  "author": "Luca Bacchi <bacchilu@gmail.com> (http://www.lucabacchi.it)",
+  "license": "ISC",
+  "babel": {
+    "presets": [
+      [
+        "@babel/preset-env",
+        {
+          "targets": {
+            "browsers": [
+              "> 5%",
+              "last 2 versions"
+            ]
+          }
+        }
+      ],
+      "@babel/preset-react"
+    ]
+  },
+  "devDependencies": {
+    "@babel/core": "*",
+    "@babel/preset-env": "*",
+    "@babel/preset-react": "*",
+    "babel-loader": "*",
+    "webpack": "*",
+    "webpack-cli": "*"
+  },
+  "dependencies": {
+    "react": "*",
+    "react-dom": "*"
+  }
+}
