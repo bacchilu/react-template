@@ -1,41 +1,28 @@
 {
-  "name": "reactjs-project",
-  "version": "1.0.0",
-  "description": "ReactJS Project",
-  "private": true,
-  "scripts": {
-    "watch": "webpack --watch",
-    "build": "webpack",
-    "deploy": "webpack --config webpack.prod.js"
-  },
-  "author": "Luca Bacchi <bacchilu@gmail.com> (http://www.lucabacchi.it)",
-  "license": "ISC",
-  "babel": {
-    "presets": [
-      [
-        "@babel/preset-env",
-        {
-          "targets": {
-            "browsers": [
-              "> 5%",
-              "last 2 versions"
-            ]
-          }
-        }
-      ],
-      "@babel/preset-react"
-    ]
-  },
-  "devDependencies": {
-    "@babel/core": "*",
-    "@babel/preset-env": "*",
-    "@babel/preset-react": "*",
-    "babel-loader": "*",
-    "webpack": "*",
-    "webpack-cli": "*"
-  },
-  "dependencies": {
-    "react": "*",
-    "react-dom": "*"
-  }
+    "name": "reactjs-project",
+    "version": "1.0.0",
+    "description": "ReactJS Project",
+    "private": true,
+    "scripts": {
+        "update": "ncu -u",
+        "watch": "webpack --env development --config webpack.config.js --watch",
+        "build": "webpack --env production --config webpack.config.js",
+        "deploy": "surge public"
+    },
+    "author": "Luca Bacchi <bacchilu@gmail.com> (http://www.lucabacchi.it)",
+    "license": "ISC",
+    "devDependencies": {
+        "@babel/core": "^7.14.2",
+        "@babel/preset-env": "^7.14.2",
+        "@babel/preset-react": "^7.13.13",
+        "babel-loader": "^8.2.2",
+        "webpack": "^5.37.0",
+        "webpack-cli": "^4.7.0",
+        "npm-check-updates": "^11.5.13"
+    },
+    "dependencies": {
+        "core-js": "^3.12.1",
+        "react": "^17.0.2",
+        "react-dom": "^17.0.2"
+    }
 }

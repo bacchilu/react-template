@@ -1,12 +1,25 @@
 # webpack-react-template
 
-This is my webpack template for a _ReactJS_ project.
+This is a starting webpack template for a _ReactJS_ project.
 
 ## Usage
 
+Installing all the dependencies:
+
     npm install
-    npm run deploy
 
-I use the _BUILD.py_ script to check for the latest version of every dependency and recompile all.
+Checking if some updates are available (I use [npm-check-updates](https://github.com/raineorshine/npm-check-updates)):
 
-    python3 BUILD.py
+    npm run update
+
+Install updates:
+
+    npm run install
+
+Build for production:
+
+    npm run build
+
+Watch for developement:
+
+    npm run watch
