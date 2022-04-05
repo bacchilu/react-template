@@ -6,19 +6,38 @@
     "scripts": {
         "update": "ncu -u",
         "watch": "webpack --env development --config webpack.config.js --watch",
-        "build": "webpack --env production --config webpack.config.js",
-        "deploy": "surge public"
+        "build": "webpack --env production --config webpack.config.js"
     },
     "author": "Luca Bacchi <bacchilu@gmail.com> (https://github.com/bacchilu)",
     "license": "ISC",
+    "prettier": {
+        "arrowParens": "always",
+        "bracketSpacing": false,
+        "embeddedLanguageFormatting": "auto",
+        "htmlWhitespaceSensitivity": "css",
+        "insertPragma": false,
+        "jsxBracketSameLine": false,
+        "jsxSingleQuote": false,
+        "printWidth": 120,
+        "proseWrap": "preserve",
+        "quoteProps": "as-needed",
+        "requirePragma": false,
+        "semi": true,
+        "singleQuote": true,
+        "tabWidth": 4,
+        "trailingComma": "es5",
+        "useTabs": false,
+        "vueIndentScriptAndStyle": false
+    },
     "devDependencies": {
         "@babel/core": "^7.17.5",
         "@babel/preset-env": "^7.16.11",
         "@babel/preset-react": "^7.16.7",
         "babel-loader": "^8.2.3",
+        "npm-check-updates": "^12.5.2",
+        "prettier": "^2.6.2",
         "webpack": "^5.70.0",
-        "webpack-cli": "^4.9.2",
-        "npm-check-updates": "^12.5.2"
+        "webpack-cli": "^4.9.2"
     },
     "dependencies": {
         "core-js": "^3.21.1",
