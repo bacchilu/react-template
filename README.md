@@ -23,3 +23,8 @@ Build for production:
 Watch for developement:
 
     npm run watch
+
+Developement web server:
+
+    python3 -m http.server
+    curl http://0.0.0.0:5000/
