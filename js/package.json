@@ -1,7 +1,7 @@
 {
-    "name": "reactjs-project",
+    "name": "webpack-react-template",
     "version": "1.2.0",
-    "description": "ReactJS Project",
+    "description": "React Template Project",
     "private": true,
     "scripts": {
         "update": "ncu -u",
