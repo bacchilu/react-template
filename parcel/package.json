@@ -4,6 +4,7 @@
     "description": "React Template Project",
     "private": true,
     "source": "src/index.html",
+    "browserslist": "defaults",
     "scripts": {
         "update": "ncu -u",
         "watch": "parcel",
