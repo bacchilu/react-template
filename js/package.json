@@ -1,6 +1,6 @@
 {
     "name": "webpack-react-template",
-    "version": "1.2.0",
+    "version": "2.0.0",
     "description": "React Template Project",
     "private": true,
     "scripts": {
@@ -30,17 +30,17 @@
         "vueIndentScriptAndStyle": false
     },
     "devDependencies": {
-        "@babel/core": "^7.17.5",
+        "@babel/core": "^7.17.9",
         "@babel/preset-env": "^7.16.11",
         "@babel/preset-react": "^7.16.7",
-        "babel-loader": "^8.2.3",
-        "npm-check-updates": "^12.5.2",
-        "webpack": "^5.70.0",
+        "babel-loader": "^8.2.4",
+        "npm-check-updates": "^12.5.8",
+        "webpack": "^5.72.0",
         "webpack-cli": "^4.9.2"
     },
     "dependencies": {
         "core-js": "^3.21.1",
-        "react": "^17.0.2",
-        "react-dom": "^17.0.2"
+        "react": "^18.0.0",
+        "react-dom": "^18.0.0"
     }
 }
