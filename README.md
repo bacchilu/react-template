@@ -1,4 +1,4 @@
-# webpack-react-template
+# react-template
 
 ## webpack
 
