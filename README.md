@@ -1,8 +1,10 @@
 # webpack-react-template
 
+## webpack
+
 This is a starting webpack template for a _ReactJS_ project.
 
-## Usage
+### Usage
 
 Installing all the dependencies:
 
@@ -28,3 +30,15 @@ Developement web server:
 
     python3 -m http.server
     curl http://0.0.0.0:5000/
+
+## Parcel
+
+### Usage
+
+    npm install
+    npm run update
+    npm run build
+    npm run watch
+    npm run serve
+
+The developement server runs with "serve".
