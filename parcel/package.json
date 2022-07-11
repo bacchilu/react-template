@@ -3,7 +3,7 @@
     "version": "2.0.0",
     "description": "React Template Project",
     "private": true,
-    "source": "src/index.html",
+    "source": ["src/index.html", "src/index2.html"],
     "browserslist": "defaults",
     "scripts": {
         "update": "ncu -u",
