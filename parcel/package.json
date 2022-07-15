@@ -1,9 +1,12 @@
 {
     "name": "webpack-react-template",
-    "version": "2.0.0",
+    "version": "2.1.0",
     "description": "React Template Project",
     "private": true,
-    "source": ["src/index.html", "src/index2.html"],
+    "source": [
+        "src/index.html",
+        "src/index2.html"
+    ],
     "browserslist": "defaults",
     "scripts": {
         "update": "ncu -u",
@@ -35,7 +38,7 @@
     "devDependencies": {
         "@types/react": "^18.0.15",
         "@types/react-dom": "^18.0.6",
-        "npm-check-updates": "^15.2.6",
+        "npm-check-updates": "^15.3.3",
         "parcel": "^2.6.2",
         "process": "^0.11.10"
     },
