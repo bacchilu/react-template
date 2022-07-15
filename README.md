@@ -60,3 +60,8 @@ I define a _.proxyrc.json_ file in this way ([documentation](https://parceljs.or
     }
 
 In the sample above, all API calls starting with _/api_ are redirected to something running on another port (also another domain).
+
+### Server Docker
+
+    sudo docker build -t test .
+    sudo docker run --rm -it -p 5000:8000 test
