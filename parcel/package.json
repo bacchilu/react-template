@@ -1,6 +1,6 @@
 {
     "name": "webpack-react-template",
-    "version": "3.0.0",
+    "version": "3.1.0",
     "description": "React Template Project",
     "private": true,
     "source": [
@@ -36,10 +36,10 @@
         "vueIndentScriptAndStyle": false
     },
     "devDependencies": {
-        "@types/react": "^18.0.17",
-        "@types/react-dom": "^18.0.6",
-        "npm-check-updates": "^16.0.5",
-        "parcel": "^2.7.0",
+        "@types/react": "^18.0.28",
+        "@types/react-dom": "^18.0.11",
+        "npm-check-updates": "^16.7.5",
+        "parcel": "^2.8.3",
         "process": "^0.11.10"
     },
     "dependencies": {
