@@ -1,7 +1,7 @@
 {
     "name": "webpack-react-template",
     "version": "5.0.0",
-    "description": "React Template Project",
+    "description": "Weback React Template",
     "private": true,
     "scripts": {
         "update": "ncu -u",
