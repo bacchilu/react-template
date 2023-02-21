@@ -13,4 +13,4 @@ const App = function () {
     );
 };
 
-createRoot(document.getElementById('app')).render(<App />);
+createRoot(document.getElementById('app')!).render(<App />);
