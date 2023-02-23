@@ -43,6 +43,17 @@ Developement web server:
 
 The developement server runs with "serve".
 
+## [Vite](https://vitejs.dev/)
+
+### Usage
+
+    npm install
+    npm run update
+    npm run build
+    npm run serve
+
+The developement server runs with "serve".
+
 ### Proxy dev server
 
 I usually have a Python application server do serve APIs.
