@@ -74,5 +74,7 @@ In the sample above, all API calls starting with _/api_ are redirected to someth
 
 ### Server Docker
 
-    sudo docker build -t test .
-    sudo docker run --rm -it -p 5000:8000 test
+Here I have a simple Python3/[Sanic](https://sanic.dev/en/) web server.
+
+    sudo docker build -t sanic-server .
+    sudo docker run --rm -it -p 5000:8000 sanic-server
