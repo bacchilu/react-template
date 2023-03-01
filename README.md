@@ -1,6 +1,6 @@
 # react-template
 
-## webpack
+## [webpack](https://webpack.js.org/)
 
 This is a starting webpack template for a _ReactJS_ project.
 
@@ -43,17 +43,6 @@ Developement web server:
 
 The developement server runs with "serve".
 
-## [Vite](https://vitejs.dev/)
-
-### Usage
-
-    npm install
-    npm run update
-    npm run build
-    npm run serve
-
-The developement server runs with "serve".
-
 ### Proxy dev server
 
 I usually have a Python application server do serve APIs.
@@ -72,7 +61,18 @@ I define a _.proxyrc.json_ file in this way ([documentation](https://parceljs.or
 
 In the sample above, all API calls starting with _/api_ are redirected to something running on another port (also another domain).
 
-### Server Docker
+## [Vite](https://vitejs.dev/)
+
+### Usage
+
+    npm install
+    npm run update
+    npm run build
+    npm run serve
+
+The developement server runs with "serve".
+
+## Server Docker
 
 Here I have a simple Python3/[Sanic](https://sanic.dev/en/) web server.
 
