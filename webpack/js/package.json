@@ -1,6 +1,6 @@
 {
     "name": "webpack-react-template",
-    "version": "5.1.2",
+    "version": "5.1.3",
     "description": "Weback React Template",
     "private": true,
     "scripts": {
@@ -35,8 +35,8 @@
         "@babel/preset-env": "^7.20.2",
         "@babel/preset-react": "^7.18.6",
         "babel-loader": "^9.1.2",
-        "npm-check-updates": "^16.7.12",
-        "webpack": "^5.76.1",
+        "npm-check-updates": "^16.7.13",
+        "webpack": "^5.76.2",
         "webpack-cli": "^5.0.1"
     },
     "dependencies": {
