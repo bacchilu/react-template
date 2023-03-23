@@ -2,6 +2,15 @@ import React from 'react';
 import {createRoot} from 'react-dom/client';
 
 const App = function () {
+    React.useEffect(() => {
+        const f = async function () {
+            const res = await fetch('/api/json', {method: 'GET'});
+            const data: {hello: 'world'; mode: 'DEV' | 'PROD'} = await res.json();
+            console.log(data);
+        };
+        f();
+    }, []);
+
     return (
         <div className="alert alert-secondary" role="alert">
             <blockquote className="blockquote">

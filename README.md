@@ -78,3 +78,5 @@ Here I have a simple Python3/[Sanic](https://sanic.dev/en/) web server.
 
     sudo docker build -t sanic-server .
     sudo docker run --rm -it -p 5000:8000 sanic-server
+
+    curl http://0.0.0.0:5000/json
