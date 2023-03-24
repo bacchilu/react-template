@@ -1,24 +1,40 @@
 import React from 'react';
 import {createRoot} from 'react-dom/client';
 
-const App = function () {
+interface JsonData {
+    hello: 'world';
+    mode: 'DEV' | 'PROD';
+}
+
+const AjaxContent = function () {
+    const [data, setData] = React.useState<JsonData | null>(null);
     React.useEffect(() => {
-        const f = async function () {
+        (async function () {
             const res = await fetch('/api/json', {method: 'GET'});
-            const data: {hello: 'world'; mode: 'DEV' | 'PROD'} = await res.json();
-            console.log(data);
-        };
-        f();
+            const data: JsonData = await res.json();
+            setData(data);
+        })();
     }, []);
 
     return (
-        <div className="alert alert-secondary" role="alert">
-            <blockquote className="blockquote">
-                <p>Nel mezzo del cammin di nostra vita</p>
-                <p>mi ritrovai per una selva oscura,</p>
-                <p>ché la diritta via era smarrita.</p>
-            </blockquote>
+        <div className="alert alert-secondary shadow-lg p-3 mb-5 bg-body-tertiary rounded" role="alert">
+            {data === null ? 'Loading' : <p className="font-monospace">{JSON.stringify(data)}</p>}
         </div>
+    );
+};
+
+const App = function () {
+    return (
+        <>
+            <div className="alert alert-secondary shadow-lg p-3 mb-5 bg-body-tertiary rounded" role="alert">
+                <blockquote className="blockquote">
+                    <p>Nel mezzo del cammin di nostra vita</p>
+                    <p>mi ritrovai per una selva oscura,</p>
+                    <p>ché la diritta via era smarrita.</p>
+                </blockquote>
+            </div>
+            <AjaxContent />
+        </>
     );
 };
 
