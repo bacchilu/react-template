@@ -1,6 +1,6 @@
 {
     "name": "parcel-react-template",
-    "version": "3.2.0",
+    "version": "3.2.1",
     "description": "Parcel React Template",
     "private": true,
     "source": [
@@ -36,7 +36,7 @@
         "vueIndentScriptAndStyle": false
     },
     "devDependencies": {
-        "@types/react": "^18.0.28",
+        "@types/react": "^18.0.29",
         "@types/react-dom": "^18.0.11",
         "npm-check-updates": "^16.8.0",
         "parcel": "^2.8.3",
