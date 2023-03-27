@@ -1,5 +1,0 @@
-services:
-  server:
-    image: bacchilu/sanic-app
-    ports:
-      - '5000:8000'
