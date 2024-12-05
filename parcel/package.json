@@ -1,6 +1,6 @@
 {
     "name": "parcel-react-template",
-    "version": "3.3.0",
+    "version": "4.0.0",
     "description": "Parcel React Template",
     "private": true,
     "source": [
@@ -10,7 +10,7 @@
     "browserslist": "defaults",
     "scripts": {
         "update": "ncu -u",
-        "serve": "parcel -p 8000",
+        "dev": "parcel -p 8000",
         "watch": "parcel watch",
         "build": "rm -rf dist && parcel build --no-source-maps"
     },
@@ -36,14 +36,13 @@
         "vueIndentScriptAndStyle": false
     },
     "devDependencies": {
-        "@types/react": "^18.2.22",
-        "@types/react-dom": "^18.2.7",
-        "npm-check-updates": "^16.14.4",
-        "parcel": "^2.9.3",
-        "process": "^0.11.10"
+        "@types/react": "^18.3.13",
+        "@types/react-dom": "^18.3.1",
+        "npm-check-updates": "^17.1.11",
+        "parcel": "^2.13.2"
     },
     "dependencies": {
-        "react": "^18.2.0",
-        "react-dom": "^18.2.0"
+        "react": "^18.3.1",
+        "react-dom": "^18.3.1"
     }
 }
