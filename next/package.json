@@ -1,0 +1,30 @@
+{
+  "name": "next-react-template",
+  "version": "1.0.0",
+  "description": "Next React Template",
+  "scripts": {
+    "update": "ncu -u",
+    "start": "next start",
+    "build": "next build && next export"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bacchilu/react-template.git"
+  },
+  "author": "Luca Bacchi <bacchilu@gmail.com> (https://github.com/bacchilu)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bacchilu/react-template/issues"
+  },
+  "homepage": "https://github.com/bacchilu/react-template#readme",
+  "devDependencies": {
+    "@types/react": "^19.0.8",
+    "@types/react-dom": "^19.0.3",
+    "next": "^15.1.6",
+    "npm-check-updates": "^17.1.14"
+  },
+  "dependencies": {
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0"
+  }
+}
